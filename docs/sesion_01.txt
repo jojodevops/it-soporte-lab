@@ -1,0 +1,24 @@
+SESSION 01 - 20/04/2026
+Duration: 2 hours
+
+Services installed:
+- Apache2 - active and verified at http://localhost
+- Samba - active with shared folder /srv/compartido
+
+Users created:
+- liam_anderson - access to shared folder
+- sophie_nguyen - access to shared folder
+- admin_jojo - sudo administrator
+
+Commands used today:
+- sudo systemctl status
+- sudo nano /etc/samba/smb.conf
+- sudo smbpasswd -a
+
+Issues found:
+- Username dots not accepted, switched to underscores
+- liam_anderson Samba password mismatch on first attempt
+
+Next session:
+- Test access as liam_anderson and sophie_nguyen
+- Simulate first incident
