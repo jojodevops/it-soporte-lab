@@ -1,0 +1,20 @@
+SESSION 01 - 20/04/2026
+Duration: 2 hours
+
+Services installed:
+- Apache2 - active and verified at http://localhost
+- Samba - active with shared folder /srv/compartido
+
+Users created:
+- liam.anderson - access to shared folder
+- sophie.nguyen - access to shared folder
+- admin.jojo - sudo access
+
+Commands used:
+- sudo systemctl status
+- sudo nano /etc/samba/smb.conf
+- sudo smbpasswd -a
+
+Next session:
+- Test access as liam.anderson and sophie.nguyen
+- Simulate first incident
